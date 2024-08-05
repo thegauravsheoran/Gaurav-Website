@@ -16,10 +16,12 @@ const Home = () => {
               <span className='text-accent'>Gaurav Sheoran</span></h1>
             <p className='max-w-[500px] mt-6 mb-9 text-white/80'>Crafting Inclusive Digital Experiences through Empathy, Innovation, and Interactive Design.</p>
             <div className=' flex flex-col xl:flex-row items-center gap-8'>
+            <a href="/assets/resume/resume.pdf" target='_blank' download="/assets/resume/resume.pdf">
               <Button variant="outline" size="lg" className="uppercase flex items-center gap-2 ">
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
               </Button>
+            </a>
               <div className='mb-8 xl:mb-0'>
                 <Socials containerStyles="flex gap-6"
                   iconStyles="w-12 h-12 border border-accent rounded-full
