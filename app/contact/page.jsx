@@ -1,8 +1,8 @@
 "use client"
 
-import { Button } from "../../components/ui/button"
-import { Textarea } from "../../components/ui/Textarea"
-import { Input } from "../../components/ui/Input"
+import { Button } from ".@/components/ui/button"
+import { Textarea } from "@/components/ui/Textarea"
+import { Input } from "@/components/ui/Input"
 import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from "@/components/ui/Select"
 import { FaPhoneAlt, FaEnvelope, FaMapMarkedAlt } from 'react-icons/fa'
 
