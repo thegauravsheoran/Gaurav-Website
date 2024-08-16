@@ -8,20 +8,20 @@ const Photo = () => {
         <div className="w-full h-full relative">
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 2, duration: 0.4, ease: "easeIn" } }}>
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" } }}
-                    className="absolute w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten" >
+                    className="absolute w-[298px] h-[298px] xl:w-[400px] xl:h-[400px] mix-blend-lighten" >
                     <Image
-                        src="/assets/photo.png"
+                        src="/assets/profile_pic_black.jpg"
                         alt="Gaurav"
                         priority
                         quality={100}
                         fill
-                        className="object-contain"
+                        className="object-contain rounded-full"
                     />
                 </motion.div>
             </motion.div>
             <motion.div>
                 <motion.svg
-                    className="w-[300px] xl:w-[506px] h-[300px] xl:h-[506px]"
+                    className="w-[300px] xl:w-[400px] h-[300px] xl:h-[400px]"
                     fill="transparent"
                     viewBox="0 0 506 506"
                     xmlns="http://www.w3.org/2000/svg"
@@ -29,10 +29,10 @@ const Photo = () => {
                     <motion.circle
                         cx="253"
                         cy="253"
-                        r="250"
+                        r="252"
                         stroke="#00ff99"
                         strokeWidth="4"
-                        strokeLincecap="round"
+                        strokelincecap="round"
                         strokeLinejoin="round"
                         initial={{ strokeDasharray: 1600 }}
                         animate={{

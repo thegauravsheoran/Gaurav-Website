@@ -4,6 +4,7 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import { CiMenuFries } from 'react-icons/ci'
+import path from 'path'
 
 
 const links = [
@@ -22,6 +23,10 @@ const links = [
     {
         name: 'Projects',
         path: '/projects',
+    },
+    {
+        name: 'Contact',
+        path: '/contact',
     },
 ]
 
