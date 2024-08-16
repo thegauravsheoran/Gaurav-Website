@@ -1,9 +1,9 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Textarea } from "@/components/ui/Textarea"
-import { Input } from "@/components/ui/Input"
-import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from "@/components/ui/Select"
+import { Textarea } from "@/components/ui/textarea"
+import { Input } from "@/components/ui/input"
+import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { FaPhoneAlt, FaEnvelope, FaMapMarkedAlt } from 'react-icons/fa'
 
 import { motion } from 'framer-motion'
