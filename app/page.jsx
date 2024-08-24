@@ -11,7 +11,7 @@ const Home = () => {
       <div className='container mx-auto h-full'>
         <div className='flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-16'>
           <div className='text-center xl:text-left order-2 xl:order-none'>
-            <span className='text-xl'>Software Devloper</span>
+            <span className='text-xl'>Software Development Engineer</span>
             <h1 className='h1'>Hello I'm<br />
               <span className='text-accent'>Gaurav Sheoran</span></h1>
             <p className='max-w-[500px] mt-6 mb-9 text-white/80'>Crafting Inclusive Digital Experiences through Empathy, Innovation, and Interactive Design.</p>
