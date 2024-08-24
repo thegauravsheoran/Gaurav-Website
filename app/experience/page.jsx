@@ -10,15 +10,15 @@ const experiences = [
     title: 'Software Developement Engineer',
     company: 'Codewalla Software Development',
     duration: 'July 2023 - Present',
-    href: '/experience',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at libero auctor, lacinia mi et, ultrices sapien. Donec nec'
+    href: 'https://codewalla.com/',
+    description: 'Software Development Engineer with over 1.3 years of experience in building web applications using React, TypeScript, SCSS, Node.js, Express, and MongoDB. Skilled in developing reusable UI components and implementing REST APIs. Currently leading a project to integrate Jira data within an application.'
   },
   {
     title: 'Frontend Developer Intern',
     company: 'Crowdanalytix Solutions Pvt Ltd',
     duration: 'March 2023 - June 2023',
-    href: '/experience',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at libero auctor, lacinia mi et, ultrices sapien. Donec nec'
+    href: 'https://www.crowdanalytix.com/',
+    description: 'Frontend Intern with hands-on experience in Angular, JavaScript, and TypeScript. Successfully translated Figma designs into fully functional Angular websites, demonstrating a strong ability to bridge design and development to create seamless user experiences.'
   },
 ]
 const Experience = () => {
@@ -33,7 +33,7 @@ const Experience = () => {
             return <div key={index} className='flex flex-1  flex-col justify-center gap-4'>
               <div className='w-full flex justify-between items-center group'>
                 <div className='text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500'>{exp.title}</div>
-                <div className='w-[100px] h-[100px]'>
+                <div className='w-[100px] h-[100px] p-5'>
                 <Link href={exp.href} className='h-[70px] w-[70px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45'>
                   <BsArrowDownRight className='text-primary text-3xl' />
                 </Link>

@@ -68,12 +68,12 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className='w-full h-full flex justify-center items-center'>
+    <div className='w-full h-full flex justify-center items-center py-8'>
       <div className='flex flex-col gap-[30px]'>
         <div className='flex flex-col gap-[30px] text-center xl:text-left'>
           <h3 className='text-4xl font-fold'>My Skills</h3>
           <p className='max-w-[40vw] text-white/60 mx-auto xl:mx-0'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          "A diverse skill set encompassing modern web development technologies and tools."
           </p>
         </div>
         <ul className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 xl:gap-[30px] gap-4'>

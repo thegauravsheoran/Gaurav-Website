@@ -16,12 +16,12 @@ import WorkSliderBtns from "@/components/WorkSliderBtns"
 const projects = [
   {
     num: '01',
-    category: 'Frontend',
-    title: 'Portfolio',
-    description: 'My portfolio website built with Next.js and Tailwind CSS.',
-    stack: [{ name: 'Next.js' }, { name: 'Tailwind CSS' }, { name: 'Framer Motion' }],
+    category: 'Fullstack',
+    title: 'Realtime-Chat-App',
+    description: 'A realtime chat application built with Node.js and Socket.io.',
+    stack: [{ name: 'Node.js' }, { name: 'Socket.io' }, { name: 'Javascript' }],
     name: 'portfolio',
-    image: '/assets/work/thumb1.png',
+    image: '/assets/work/thumb4.png',
     live: "www.google.com",
     github: "",
   },
@@ -32,13 +32,13 @@ const projects = [
     description: 'My portfolio website built with Next.js and Tailwind CSS.',
     stack: [{ name: 'Next.js' }, { name: 'Tailwind CSS' }],
     name: 'portfolio',
-    image: '/assets/work/thumb2.png',
+    image: '/assets/work/thumb5.png',
     live: "",
     github: "",
   },
   {
     num: '03',
-    category: 'Frontend',
+    category: 'Frontend & Animation',
     title: 'Portfolio',
     description: 'My portfolio website built with Next.js and Tailwind CSS.',
     stack: [{ name: 'Next.js' }, { name: 'Tailwind CSS' }, { name: 'Framer Motion' }],
@@ -63,7 +63,7 @@ const Projects = () => {
         animate={{ opacity: 1, transition: { delay: 2.4, duration: 0.4, ease: "easeIn" } }}
         className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0"
       >
-        <div className=" container mx-auto">
+        <div className=" container mx-auto py-8">
           <div className=" flex flex-col xl:flex-row xl:gap-[30px]">
             <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col
           xl:justify-between order-2 xl:order-none">

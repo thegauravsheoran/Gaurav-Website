@@ -43,7 +43,7 @@ const Contact = () => {
                             <Input type="email" placeholder='Email' />
                             <Input type="phone" placeholder='Phone' />
                         </div>
-                        <Select>
+                        {/* <Select>
                             <SelectTrigger>
                                 <SelectValue>Select a Service</SelectValue>
                             </SelectTrigger>
@@ -55,7 +55,7 @@ const Contact = () => {
                                     <SelectItem value="mst">UI/UX Design</SelectItem>
                                 </SelectGroup>
                             </SelectContent>
-                        </Select>
+                        </Select> */}
                         <Textarea placeholder="Type your message here." className="h-[200px]" />
                     <Button size="md" className="max-w-40 min-h-[40px]">Send Message</Button>
                     </form>
