@@ -22,8 +22,8 @@ const projects = [
     stack: [{ name: 'Node.js' }, { name: 'Socket.io' }, { name: 'Javascript' }],
     name: 'portfolio',
     image: '/assets/work/thumb4.png',
-    live: "www.google.com",
-    github: "",
+    live: "https://github.com/thegauravsheoran/Realtime-Chat-App-Using-NodeJs-and-SocketIO",
+    github: "https://github.com/thegauravsheoran/Realtime-Chat-App-Using-NodeJs-and-SocketIO",
   },
   {
     num: '02',
@@ -33,8 +33,8 @@ const projects = [
     stack: [{ name: 'Next.js' }, { name: 'Tailwind CSS' }],
     name: 'portfolio',
     image: '/assets/work/thumb5.png',
-    live: "",
-    github: "",
+    live: "https://gaurav-portfolio-mauve.vercel.app/",
+    github: "https://github.com/thegauravsheoran/Gaurav-Website",
   },
   {
     num: '03',
@@ -44,8 +44,8 @@ const projects = [
     stack: [{ name: 'Next.js' }, { name: 'Tailwind CSS' }, { name: 'Framer Motion' }],
     name: 'portfolio',
     image: '/assets/work/thumb3.png',
-    live: "",
-    github: "",
+    live: "https://gaurav-portfolio-mauve.vercel.app/",
+    github: "https://github.com/thegauravsheoran/Gaurav-Website",
   }
 ]
 
