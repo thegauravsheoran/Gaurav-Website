@@ -68,25 +68,26 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className='w-full h-full flex justify-center items-center py-8'>
+    <div className='w-full h-full flex justify-center items-center pb-[8%] px-0'>
       <div className='flex flex-col gap-[30px]'>
         <div className='flex flex-col gap-[30px] text-center xl:text-left'>
-          <h3 className='text-4xl font-fold'>My Skills</h3>
-          <p className='max-w-[40vw] text-white/60 mx-auto xl:mx-0'>
+          {/* <h3 className='text-4xl font-fold'>Skills</h3> */}
+          {/* <p className='max-w-[40vw] text-white/60 mx-auto xl:mx-0'>
           "A diverse skill set encompassing modern web development technologies and tools."
-          </p>
+          </p> */}
         </div>
         <ul className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 xl:gap-[30px] gap-4'>
           {skills.map((skill, index) => {
             return <li key={index}>
               <TooltipProvider delayDuration={100}>
                 <Tooltip>
-                  <TooltipTrigger className='w-full min-w-[150px] h-[150px] group bg-[#232329] rounded-xl flex justify-center items-center'>
-                    <div className='text-6xl group-hover:text-accent transition-all duration-300 group-hover:scale-125'>{skill.icon}</div>
+                  <TooltipTrigger className='w-full min-w-[170px] h-[170px] group bg-[#232329] rounded-xl flex flex-col justify-center items-center'>
+                    <div className='text-6xl group-hover:text-accent transition-all duration-300'>{skill.icon}</div>
+                    <p className='mt-2 group-hover:text-accent transition-all duration-300 text-white'>{skill.title}</p>
                   </TooltipTrigger>
-                  <TooltipContent>
+                  {/* <TooltipContent>
                     <p>{skill.title}</p>
-                  </TooltipContent>
+                  </TooltipContent> */}
                 </Tooltip>
               </TooltipProvider>
             </li>

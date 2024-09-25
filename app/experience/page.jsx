@@ -7,7 +7,7 @@ import { delay, easeIn } from 'framer-motion'
 
 const experiences = [
   {
-    title: 'Software Developement Engineer',
+    title: 'Software Development Engineer',
     company: 'Codewalla Software Development',
     duration: 'July 2023 - Present',
     href: 'https://codewalla.com/',
@@ -23,7 +23,7 @@ const experiences = [
 ]
 const Experience = () => {
   return (
-    <section className='min-h-[90vh] flex flex-col justify-center items-center'>
+    <section className='min-h-[90vh] flex flex-col justify-center items-cente py-8'>
       <div className='mx-auto container'>
         <motion.div initial={{ opacity: 0 }}
           animate={{ opacity: 1, transition: { delay: 2.4, duration: 0.4, ease: "easeIn" } }}
