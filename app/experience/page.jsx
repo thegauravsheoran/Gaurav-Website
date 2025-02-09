@@ -11,7 +11,7 @@ const experiences = [
     company: 'Codewalla Software Development',
     duration: 'July 2023 - Present',
     href: 'https://codewalla.com/',
-    description: 'Software Development Engineer with over 1.3 years of experience in building web applications using React, TypeScript, SCSS, Node.js, Express, and MongoDB. Skilled in developing reusable UI components and implementing REST APIs. Currently leading a project to integrate Jira data within an application.'
+    description: 'Software Development Engineer with over 1.8 years of experience in building web applications using React, TypeScript, SCSS, Node.js, Express, and MongoDB. Skilled in developing reusable UI components and implementing REST APIs. Currently leading a project to integrate Jira data within an application.'
   },
   {
     title: 'Frontend Developer Intern',
