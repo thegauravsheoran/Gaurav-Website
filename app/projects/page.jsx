@@ -11,13 +11,14 @@ const projects = [
   {
     num: '01',
     category: 'Fullstack',
-    title: 'JIRA Clone',
-    description: 'A realtime Jira Clone built with Node.js and React.',
-    stack: [{ name: 'Node.js' }, { name: 'React' }, { name: 'Javascript' }, { name: 'Postgres' }],
+    title: 'Food Delivery App',
+    description: 'A scalable food delivery platform to order your favourite food online.',
+    stack: [, { name: 'React' }, { name: 'Javascript' }, { name: 'ContextAPI' }, { name: 'HTML/CSS' }],
     name: 'portfolio',
-    image: '/assets/work/jiraImage.png',
-    live: "https://jira.ivorreic.com/project/board",
-    github: "https://github.com/thegauravsheoran/Realtime-Chat-App-Using-NodeJs-and-SocketIO",
+    image: '/assets/work/food-delivery.png',
+    video: '/assets/work/food-delivery-video.webm',
+    live: "https://food-delivery-app-ashen-beta.vercel.app/",
+    github: "https://github.com/thegauravsheoran/food-delivery-app",
   },
   {
     num: '02',
@@ -27,6 +28,7 @@ const projects = [
     stack: [{ name: 'Next.js' }, { name: 'Tailwind CSS' }],
     name: 'portfolio',
     image: '/assets/work/thumb5.png',
+    video: '/assets/work/portfolio-video.mp4',
     live: "https://gaurav-portfolio-mauve.vercel.app/",
     github: "https://github.com/thegauravsheoran/Gaurav-Website",
   },
@@ -57,13 +59,21 @@ const Projects = () => {
                 <div className="h-[460px] relative group flex justify-center items-center bg-pink-50">
                   <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
                   <div className="relative w-full h-full">
-                    <Image
+                    {/* <Image
                       src={project.image}
                       alt={project.title}
                       priority
                       quality={100}
                       fill
                       className="object-cover"
+                    /> */}
+                    <video
+                      src={project.video} // Replace with the video URL
+                      autoPlay
+                      loop
+                      muted
+                      playsInline
+                      className="object-cover w-full h-full"
                     />
                   </div>
                 </div>
