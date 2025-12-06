@@ -1,9 +1,59 @@
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@radix-ui/react-tooltip'
-import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs } from 'react-icons/fa'
-import { SiNextdotjs, SiTailwindcss, SiSass, SiCplusplus, SiTypescript, SiExpress, SiMongodb } from 'react-icons/si'
+import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs, FaChartPie, FaDocker, FaGit, FaGithub } from 'react-icons/fa'
+import { SiNextdotjs, SiTailwindcss, SiSass, SiCplusplus, SiTypescript, SiExpress, SiMongodb, SiKubernetes } from 'react-icons/si'
 import React from 'react'
 
 const skills = [
+  {
+    title: 'JavaScript',
+    description: 'JavaScript is a high-level, interpreted programming language that conforms to the ECMAScript specification.',
+    icon: <FaJs />,
+  },
+  {
+    title: 'TypeScript',
+    description: 'TypeScript is a strict syntactical superset of JavaScript that adds optional static typing to the language.',
+    icon: <SiTypescript />,
+  },
+  {
+    title: 'React',
+    description: 'React is a JavaScript library for building user interfaces.',
+    icon: <FaReact />,
+  },
+  {
+    title: 'HighCharts',
+    description: 'HighCharts is a charting library.',
+    icon: <FaChartPie />,
+  },
+  {
+    title: 'Next.js',
+    description: 'Next.js is a React framework for production.',
+    icon: <SiNextdotjs />,
+  },
+  {
+    title: 'Docker',
+    description: 'Docker is a platform designed to help developers build, share, and run container applications.',
+    icon: <FaDocker />,
+  },
+  {
+    title: 'Kubernetes (K8s)',
+    description: 'Kubernetes (K8s) is an open-source platform for automating the deployment, scaling, and management of containerized applications, acting as a container orchestrator to simplify running complex apps across different environments (cloud, on-premise).',
+    icon: <SiKubernetes />,
+  },
+  {
+    title: 'Git',
+    description: 'Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.',
+    icon: <FaGit />,
+  },
+   {
+    title: 'Github',
+    description: 'GitHub is a proprietary developer platform that allows developers to create, store, manage, and share their code.',
+    icon: <FaGithub />,
+  },
+  {
+    title: 'Tailwind CSS',
+    description: 'Tailwind CSS is a utility-first CSS framework.',
+    icon: <SiTailwindcss />,
+  },
   {
     title: 'HTML',
     description: 'HTML is the standard markup language for documents designed to be displayed in a web browser.',
@@ -24,31 +74,7 @@ const skills = [
     description: 'C++ is a general-purpose programming language created as an extension of the C programming language.',
     icon: <SiCplusplus />,
   },
-  {
-    title: 'JavaScript',
-    description: 'JavaScript is a high-level, interpreted programming language that conforms to the ECMAScript specification.',
-    icon: <FaJs />,
-  },
-  {
-    title: 'TypeScript',
-    description: 'TypeScript is a strict syntactical superset of JavaScript that adds optional static typing to the language.',
-    icon: <SiTypescript />,
-  },
-  {
-    title: 'React',
-    description: 'React is a JavaScript library for building user interfaces.',
-    icon: <FaReact />,
-  },
-  {
-    title: 'Next.js',
-    description: 'Next.js is a React framework for production.',
-    icon: <SiNextdotjs />,
-  },
-  {
-    title: 'Tailwind CSS',
-    description: 'Tailwind CSS is a utility-first CSS framework.',
-    icon: <SiTailwindcss />,
-  },
+
   {
     title: 'Node.js',
     description: 'Node.js is a JavaScript runtime built on Chrome\'s V8 JavaScript engine.',

@@ -7,11 +7,18 @@ import { delay, easeIn } from 'framer-motion'
 
 const experiences = [
   {
+    title: 'Frontend Engineer',
+    company: 'VOICEplug AI',
+    duration: 'June 2025 - Present',
+    href: 'https://voiceplug.ai/',
+    description: 'Sole frontend owner of VOICEplug’s Customer Success Portal, used daily by 2,000+ franchise operators across major US brands. I built the platform end-to-end using React, TypeScript, Tailwind, and Highcharts Core—owning architecture, performance, design implementation, and production reliability. Delivered 10+ mission-critical modules enabling real-time insights into sales, calls, upsells, and operational trends.'
+  },
+  {
     title: 'Software Development Engineer',
     company: 'Codewalla Software Development',
-    duration: 'July 2023 - Present',
+    duration: 'July 2023 - Feb 2025',
     href: 'https://codewalla.com/',
-    description: 'Software Development Engineer with over 1.8 years of experience in building web applications using React, TypeScript, SCSS, Node.js, Express, and MongoDB. Skilled in developing reusable UI components and implementing REST APIs. Currently leading a project to integrate Jira data within an application.'
+    description: 'Software Development Engineer with over 1.8+ years of experience in building web applications using React, TypeScript, SCSS, Node.js, Express, and MongoDB. Skilled in developing reusable UI components and implementing REST APIs. Currently leading a project to integrate Jira data within an application.'
   },
   {
     title: 'Frontend Developer Intern',
@@ -34,15 +41,15 @@ const Experience = () => {
               <div className='w-full flex justify-between items-center group'>
                 <div className='text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500'>{exp.title}</div>
                 <div className='w-[100px] h-[100px] p-5'>
-                <Link href={exp.href} className='h-[70px] w-[70px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45'>
-                  <BsArrowDownRight className='text-primary text-3xl' />
-                </Link>
+                  <Link href={exp.href} className='h-[70px] w-[70px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45'>
+                    <BsArrowDownRight className='text-primary text-3xl' />
+                  </Link>
                 </div>
               </div>
               <span className='text-accent text-xl'>{exp.company}
-              <p className='text-white/80 text-sm'>({exp.duration})</p>
+                <p className='text-white/80 text-sm'>({exp.duration})</p>
               </span>
-             
+
               <p>{exp.description}</p>
               <div className='border-b border-white/20 w-full'></div>
             </div>

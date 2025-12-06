@@ -4,7 +4,7 @@ import CountUp from "react-countup"
 
 const stats = [
     {
-        count: 1,
+        count: 2,
         title: 'Years of Experience',
         suffix: '+'
     },
@@ -17,7 +17,7 @@ const stats = [
         title: 'Technologies Used'
     },
     {
-        count: 300,
+        count: 1000,
         title: 'Code Commits',
         suffix: '+'
     },
@@ -25,7 +25,7 @@ const stats = [
 
 const Stats = () => {
     return (
-        <section className="pt-4 pb-12 xl:pt:0 xl:pb-0">
+        <section className="pt-4 pb-12 xl:pt:0 xl:pb-12">
             <div className="container mx-auto">
                 <div className="flex flex-wrap gap-6 max-w-[80vw] max-auto xl:max-w-none ">
                     {stats.map((stat, index) => {

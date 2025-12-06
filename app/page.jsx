@@ -14,14 +14,14 @@ const Home = () => {
     <>
       <section className='h-full'>
         <div className='container mx-auto h-full'>
-          <div className='flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-16'>
+          <div className='flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-10'>
             <div className='text-center xl:text-left order-2 xl:order-none'>
-              <span className='text-xl'>Software Development Engineer</span>
+              <span className='text-xl'>Frontend Engineer</span>
               <h1 className='h1'>Hello I'm<br />
                 <span className='text-accent'>Gaurav Sheoran</span></h1>
               <p className='max-w-[500px] mt-6 mb-9 text-white/80'>Crafting Inclusive Digital Experiences through Empathy, Innovation, and Interactive Design.</p>
               <div className=' flex flex-col xl:flex-row items-center gap-3'>
-                <a href="assets/resume/resume.pdf" download="Gaurav_Sheoran_Resume.pdf">
+                <a href="assets/resume/Gaurav_Sheoran.pdf" download="Gaurav_Sheoran.pdf">
                   <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
                     <span>Download CV</span>
                     <FiDownload className="text-xl" />
